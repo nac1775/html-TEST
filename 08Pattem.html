@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <form action="">
+    <!-- TEL : <input type="TEL" pattern="[0-9]{2,3}-[0-9]{3,4}-[0-9]{4}" placeholder="0xx-xxxx-xxxx"><dr> -->
+      <!--입력되는 값이 a~z 까지 글자수는 8자리부터16자리사이만-->
+      <!-- TEST : <input type="test" pattern="(?=.*[a-z]).{8-16}"><dr> -->
+      <!-- TEST : <input type="test" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9].{8-16}"><dr> -->
+      TEST : <input type="test" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%$^&*]).{8-16}"><dr>
+      <input><dr>
+      <input autofocus><dr>
+      <input><dr>
+      <input><dr>
+        <input type="submit">
+      <input type="reset">
+</form>
+
+</body>
+</html>
